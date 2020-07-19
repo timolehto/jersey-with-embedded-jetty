@@ -6,9 +6,9 @@ sourceCompatibility = 1.8
 mainClassName = 'com.dovydasvenckus.jersey.JerseyApplication'
 
 ext {
-    slf4jVersion = '1.7.25'
-    jettyVersion = '9.4.6.v20170531'
-    jerseyVersion = '2.27'
+    slf4jVersion = '1.7.30'
+    jettyVersion = '9.4.30.v20200611'
+    jerseyVersion = '2.31'
 }
 
 buildscript {
@@ -17,7 +17,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.2.0'
     }
 }
 
